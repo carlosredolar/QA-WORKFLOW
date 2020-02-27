@@ -5,20 +5,21 @@ I am Carlos Redolar, student from Videogame Design degree at [CITM Terrassa](htt
 
 # What is QA?
 
-Las siglas significan "Quality Assurance", lo cual es un conjunto de acciones y actividades programadas que se realizan sobre un juego para asegurar que cumpla una série de normas, estándares y requisitos de calidad préviamente establecidos por un departamento de QA y los productores. Dicha "calidad" no siempre significa que el juego sea bueno o que vaya a agradar al público, sino que ha superado esos parámetros que el equipo y la empresa desean.
+The acronym means "Quality Assurance", which is a set of actions and programmed activities that are carried out on a game to ensure that it meets a series of quality rules, standards and requirements previously established by a QA department and the producers. This "quality" does not always mean that the game is good or that it will please the public, but means that has exceeded those parameters that the team and the company want.
 
-Para garantizar esta calidad se utilizan test, que ponen a prueba el juego, aunque QA engolba otros muchos procesos aparte del testing.
-
-# QA como proceso ágil
-
-El proceso de QA es flexible y debe adaptarse al resto de equipos, artistas, programadores... El proceso debe hacerse durante todo el proyecto, en concreto, desde que sale el primer documento de diseño podemos empezar a planificar qué y cómo lo vamos a testear.
-
-Para poder evaluar cada milestone y cada build primero debemos definir un critério para ello, el departamento de QA y los productores debeán hacer un documento con los parámetros que cada integrante del equipo deba seguir cuando testee, además de las especifícaciones sobre cómo hacer el report.
+To guarantee this quality, we use tests, which test the game, although QA encompasses many other processes apart from testing.
 
 
-# Diagrama de flujo
+# QA as an agile process
 
-![](docs/diagram.png)
+The QA process is flexible and must be adapted to other teams, artists, programmers ... The process must be done throughout the project, specifically, since the first design document comes out we can start planning "what" and "how" we are going to test.
+
+In order to evaluate each milestone and each build, we must first define a criterion for this, the QA department and the producers must make a document with the parameters that each team member must follow when testing, in addition to the specifications about how to make the report.
+
+
+# Flowchart
+
+![](docs/flowchart.png)
 
 
 # Tipos de test según el tester
