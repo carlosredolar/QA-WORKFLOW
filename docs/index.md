@@ -19,7 +19,7 @@ In order to evaluate each milestone and each build, we must first define a crite
 
 # Flowchart
 
-![](docs/flowchart.png)
+![](docs/diagram.PNG)
 
 
 # Tipos de test según el tester
