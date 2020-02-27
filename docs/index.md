@@ -19,7 +19,7 @@ In order to evaluate each milestone and each build, we must first define a crite
 
 # Flowchart
 
-![](docs/diagram.PNG)
+![Flowchart](https://raw.githubusercontent.com/carlosredolar/QA-WORKFLOW/master/docs/flowchart.PNG)
 
 
 # Tipos de test según el tester
