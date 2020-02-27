@@ -113,6 +113,23 @@ La parte más importante del report es el formato, el cual todos los miembros de
 - **Plataforma:** especificamos en que dispositivo estamos corriendo la build en el cual hemos detectado el error.
 
 
+# Type of bugs
+
+Hay mucha variedad de bugs, pero en este caso nos centraremos en 3 imagenes y en si vale la pena o no arreglar dichos bugs.
+
+![bug01]()
+
+En esta imagen podemos notar que el contrincante aparece pixelado, por lo tanto influye en la experiencia del usuario, pero no afecta en absoluto al juego o la partida. Se trata de un error de tipo B que tendría poca prioridad debido a que solamente ocurriría con ese enemigo y durante 2 segundos en pantalla.
+
+![bug02]()
+
+En esta imagen vemos como el modelado 3D del personaje se ha visto alterado, por lo tanto influye en la experiencia del usuario, pero no afecta en absoluto al juego o la partida. Se trata de un error de tipo B igual que el anterior, pero este sí que tendría más prioridad ya que el usuario tendrá que lidiar con ver este error durante toda la cinemática o incluso parte del gameplay.
+
+![bug03]()
+
+En esta imagen podemos apreciar como tras completar una misión la recompensa es desorbitada, por lo tanto influye directamente en la experiencia del juego y también en la experiéncia de otros usuarios al tratarse de un juego online. Se trata de un error de tipo A con prioridad máxima, ya que también puede afectar a la economía de la empresa si afecta en los microtransacciones.
+
+
 # Sources
 
 [https://www.youtube.com/watch?v=UF3Ya0uvYpU](https://www.youtube.com/watch?v=UF3Ya0uvYpU)
