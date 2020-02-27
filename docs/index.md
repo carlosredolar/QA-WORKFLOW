@@ -1,6 +1,6 @@
 # **QA WORKFLOW**
 
-I am Carlos Redolar, student from Videogame Design degree at [CITM Terrassa](https://www.citm.upc.edu/). This research is for Project II subject, under supervision of [Marc Garrigó](https://es.linkedin.com/in/mgarrigo).
+I am Carlos Redolar, student of the [Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year subject Project II, under supervision of lecturer [Marc Garrigó](https://es.linkedin.com/in/mgarrigo).
 
 
 # What is QA?
@@ -22,112 +22,126 @@ In order to evaluate each milestone and each build, we must first define a crite
 ![Flowchart](https://raw.githubusercontent.com/carlosredolar/QA-WORKFLOW/master/docs/flowchart.PNG)
 
 
-# Tipos de test según el tester
+# Test types according to the tester
 
-**QA Department testing:** el equipo encargado de la propia empresa porbará el juego y el código en busca de errores.
+- **QA Department testing:** a company team will check the game and the code for errors.
 
-**UX testing:** el juego es probado por usuarios objetivo, a los cuales traemos expresamente para analizar sus reacciones.
-
-
-# Tipos de test según la metodología
-
-## Tests automatizados
-
-Los tests automatizados son llevados a cabo por ordenadores de forma automática, podemos simular miles de comportamientos para así preveer o detectar posibles errores. Al ser hecho por un ordenador los procesos son muy rápidos y nos permiten ahorrar tiempo.
-
-Las pruebas más comunes realizadas mediante este proceso son:
-
-- **Pruebas unitarias:** hace pruebas de módulos separados de código para aislar errores. Utilizado sobretodo en core mechanics y comunicación de bases de datos.
-
-- **Pruebas de resolución:** hace simulaciones del juego en diferentes resoluciones y simulando diferenes dispositivos para preveer el comportamiento del juego en diversos escenarios.
-
-- **Pruebas de estrés:** se centra en simular escenarios extraños y sobrecargados para encontrar los límites del juego.
+- **UX testing:** the game is tested by target users, which we expressly bring to analyze their reactions.
 
 
-## Tests manuales
+# Test types according to the methodology
 
-Los test manuales son llevados a cabo por personas, el lado malo de esto es que las personas son lentas y mucho menos eficientes que un ordenador, pero el factor humano nos hace capaces de encontrar errores sobre gustos y mejoras más complejas. 
+## Automated tests
 
-Las pruebas más comunes realizadas por humanos son:
+Automated tests are carried out by computers automatically, we can simulate thousands of behaviors to prevent or detect possible errors. Being done by a computer the processes are very fast and allow us to save time.
 
-- **Pruebas de interfaz:** el equipo analiza los elementos de la interfaz, no solo que funcione correctamente sino también que sea lo más intuitiva posible.
+The most common tests performed through this process are:
 
-- **Pruebas de estrés:** como hemos aclarado antes, en las pruebas de estrés intentamos poner nuestro juego al límite.
+- **Unit tests:** tests separate modules of code to isolate errors. Used mostly in core mechanics and database communication.
 
-- **Pruebas de remojo:** se basa en dejar al juego haciendo una tarea pos un tiempo prolongado para ver su reacción.
+- **Resolution tests:** makes simulations of the game in different resolutions and simulating different devices to predict the behavior of the game in various scenarios.
 
-- **Pruebas de sonido:** en esta prueba no solo se comprueba que los sonidos vayan, sino que también se mira que todos los audios cuadren con las animaciones o  dar feedback sobre la estética conjunta.
+- **Stress tests:** focuses on simulating strange and overloaded scenarios to find the limits of the game.
 
-- **Pruebas de mecánicas:** se comprueba que las mecánicas funcionen como deberían y damos feedback sobre posibles mejoras.
+## Manual tests
 
-- **Pruebas de humo:** es una prueba corta en la que comprobamos el correcto funcionamiento del juego sin prediseñar una prueba.
+Manual tests are carried out by people, the bad side of this is that people are slow and much less efficient than a computer, but the human factor makes us able to find errors about tastes and more complex improvements.
 
-## Mix manual-automatico
+The most common tests performed by humans are:
 
-Al fin y al cabo las empresas que cuentan con departamento de QA utilizan ambos metodos y se complementan, ya que el automático hecho por ordenador se dedica a tareas sencillas pero muy laboriosas en muy poco tiempo y el equipo humano de los errores que requieren más complejidad.
+- **Interface tests:** the equipment analyzes the elements of the interface, not only that it works correctly but also that it is as intuitive as possible.
 
-## Herramientas para automatizar
+- **Stress tests:** As we have clarified before, in stress tests we try to put our game to the limit.
 
-Para llegar a ese método mixto nos ayudamos de herramientas que nos permitan hacer el trabajo manual más fácil.
-La herramienta principal de toda empresa es su propio código, creamos nuestros propios scripts que nos permitirán probar todo tipo de cosas, implementación de "godmodes", "next level", "monedas o vidas ilimitadas"...
+- **Soaking tests:** is based on leaving the game doing tasks for a long time to see its reaction.
 
-También hay plataformas que nos proporcionan herramientas, como es el caso de Unity y su "Unity Test Tools" que nos permite hacer pruebas unitarias.
+- **Sound tests:** This test not only checks that the sounds works, but also that all audios match the animations or give feedback on the joint aesthetics.
+
+- **Mechanical tests:** it is checked that the mechanics work as they should and we give feedback on possible improvements.
+
+- **Smoke tests:** is a short test in which we check the correct functioning of the game without pre-designing a test.
+
+## Manual-automatic mix
+
+In fact, companies that have a QA department use both methods and complement each other, while the automatic computer process is working on simple but very laborious tasks in a very short time, the human team is searching for errors that require more complexity.
+
+## Tools to automate
+
+To reach this mixed method we use tools that allow us to make manual work easier.
+The main tool of every company is its own code, we create our own scripts that will allow us to test all kinds of things, implementation of "godmodes", "next level", "unlimited coins or lives" ...
+
+There are also platforms that provide us with tools, such as Unity and its "Unity Test Tools" that allow us to do unit tests easily.
 
 
 # Test Plan
 
-La planificación del test se centra en la pregunta "Qué vamos a testear?" y "Que recursos necesitamos?". La estrategia de pruebas es un documento que detalla los procesos y maneras en que vamos a asegurar esa calidad en nuestro juego. En esta planificación definimos el proceso de pruebas, los niveles de pruebas, roles de cada miembro del equipo y cada test definido en el plan.
+The test planning focuses on the question "What are we going to test?" and "What resources do we need?". The test strategy is a document that details the processes and ways in which we will ensure that quality in our game. In this planning we define the testing process, the levels of tests, roles of each team member and each test defined in the plan.
 
 
 # Test design
 
-El diseño de la prueba es el cómo se llevará a cabo el test y la lista de escenarios que vamos a cubrir.
-Para diseñar las pruebas hay diferentes enfoques:
+The design of the test is how the test will be carried out and the list of scenarios that we are going to cover.
+To design the tests there are different approaches:
 
-- **Proactivo:** son pruebas que son diseñadas lo antes posible, para preveer mas o menos dónde podemos encontrar errores incluso antes de crear la build.
+- **Proactive:** are tests that are designed as soon as possible, to more or less predict where we can find errors even before creating the build.
 
-- **Basado en riesgos:** son pruebas diseñadas posteriormente a la build para encontrar errores en sitios concretos.
+- **Based on risks:** are tests designed after the build to find errors in specific sites.
 
 
 # Report
 
-Después de realizar cada prueba se ha de hacer un informe para informar sobre los errores e incluso los aciertos.
-Las herramientas que suelen usar las empresas son: Mantis, Jira y Google Docs.
+After each test, a report must be made to report errors and even successes.
 
-La parte más importante del report es el formato, el cual todos los miembros del equipo deben respetar para que luego le sea fácil al programador entender y resolver el error.
+The tools that companies usually use are: [Mantis](https://mantishub.com/?utm_source=google&utm_medium=cpc&utm_campaign=World%20Mantis%20Searchers&gclid=CjwKCAiA7t3yBRADEiwA4GFlI1svB4PN3PdMdcsKLbAbYFAPvWAloj_Br9gH8QK77PFNG_wnFl2rXxoC28IQAvD_BwE), [Jira](https://www.atlassian.com/es/software/jira?&aceid=&adposition=&adgroup=55901295097&campaign=1496094425&creative=407713566405&device=c&keyword=jira&matchtype=e&network=g&placement=&ds_kids=p35508006331&ds_e=GOOGLE&ds_eid=700000001550060&ds_e1=GOOGLE&gclid=CjwKCAiA7t3yBRADEiwA4GFlIx4zTKAMbLCLanfWbugxYiT3_9zkrmF3A6JLCJatlMRr3o95DMUtaxoCAlcQAvD_BwE&gclsrc=aw.ds) and [Google Docs](https://www.google.es/intl/es/docs/about/).
 
-- **Descripción del error/bug:** breve descripción del error.
+The most important part of the report is the format, which all team members must respect so that it is then easy for the programmer to understand and resolve the error.
 
-- **Estado:** estado actual del error, ya sea acabado de detectar, se esta resolviendo, esta resuelto, o no es necesario resolver.
+- **Description of the error/bug:** brief description of the error.
 
-- **Paso-paso:** descripción paso a paso de cómo llegar a que ocurra el error.
+- **Status:** current status of the error, whether it has just been detected, is being resolved, is resolved, or need not be resolved.
 
-- **Comportamiento esperado:** descripción de cómo debería funcionar sin el error.
+- **Step-by-step:** step-by-step description of how to get the error to occur.
 
-- **Relevancia:** se agrupa den 3 tipos según la importancia del bug. Tipo A para errores que afectan a la experiencia del juego. Tipo B para errores que afectan la experiencia de usuario. Y tipo C para mejoras de qualquier ámbito.
+- **Expected behavior:** description of how it should work without the error.
 
-- **Prioridad:** aquí declaramos cuánto de rápido queremos solventar este error (si lo que remos arreglar), no necesariamente en el orden de relevancia, ya que puede haber errores de relevancia menor que necesitemos arreglar antes.
+- **Relevance:** 3 types are grouped according to the importance of the bug. Type A for errors that affect the game experience. Type B for errors that affect the user experience. And type C for improvements in any field.
 
-- **Versión:** especificamos el numero de versión o que build estamos tartando.
+- **Priority:** here we declare how quickly we want to solve this error (if we want to fix it), not necessarily in the order of relevance, there may be minor relevance errors that we need to fix before.
 
-- **Plataforma:** especificamos en que dispositivo estamos corriendo la build en el cual hemos detectado el error.
+- **Version:** we specify the version number or which build we are testing.
+
+- **Platform:** we specify on which device we are running the build in which we have detected the error.
 
 
 # Type of bugs
 
 Hay mucha variedad de bugs, pero en este caso nos centraremos en 3 imagenes y en si vale la pena o no arreglar dichos bugs.
 
-![bug01]()
+![bug01](https://raw.githubusercontent.com/carlosredolar/QA-WORKFLOW/master/docs/bug01.jpg)
 
 En esta imagen podemos notar que el contrincante aparece pixelado, por lo tanto influye en la experiencia del usuario, pero no afecta en absoluto al juego o la partida. Se trata de un error de tipo B que tendría poca prioridad debido a que solamente ocurriría con ese enemigo y durante 2 segundos en pantalla.
 
-![bug02]()
+![bug02](https://raw.githubusercontent.com/carlosredolar/QA-WORKFLOW/master/docs/bug02.jpg)
 
 En esta imagen vemos como el modelado 3D del personaje se ha visto alterado, por lo tanto influye en la experiencia del usuario, pero no afecta en absoluto al juego o la partida. Se trata de un error de tipo B igual que el anterior, pero este sí que tendría más prioridad ya que el usuario tendrá que lidiar con ver este error durante toda la cinemática o incluso parte del gameplay.
 
-![bug03]()
+![bug03](https://raw.githubusercontent.com/carlosredolar/QA-WORKFLOW/master/docs/bug03.jpg)
 
 En esta imagen podemos apreciar como tras completar una misión la recompensa es desorbitada, por lo tanto influye directamente en la experiencia del juego y también en la experiéncia de otros usuarios al tratarse de un juego online. Se trata de un error de tipo A con prioridad máxima, ya que también puede afectar a la economía de la empresa si afecta en los microtransacciones.
+
+There is a lot of variety of bugs, but in this case we will focus on 3 images and whether or not to fix those bugs.
+
+![bug01](https://raw.githubusercontent.com/carlosredolar/QA-WORKFLOW/master/docs/bug01.jpg)
+
+In this image we can see that the opponent appears pixelated, therefore influences the user experience, but does not affect the game at all. It is a type B error that would have low priority because it would only occur with that enemy and for 2 seconds on the screen.
+
+![bug02](https://raw.githubusercontent.com/carlosredolar/QA-WORKFLOW/master/docs/bug02.jpg)
+
+In this image we see how the 3D modeling of the character has been altered, therefore influences the user experience, but does not affect the gameplay. It is a type B error like the previous one, but this one would have more priority because the user will have to deal with seeing this error during the whole kinematics or even part of the gameplay.
+
+![bug03](https://raw.githubusercontent.com/carlosredolar/QA-WORKFLOW/master/docs/bug03.jpg)
+
+In this image we can appreciate how after completing a mission the reward is exorbitant, therefore it directly influences the experience of the game and also the experience of other users as it is an online game. It is a type A error with maximum priority, because it can also affect the economy of the company if it affects microtransactions.
 
 
 # Sources
