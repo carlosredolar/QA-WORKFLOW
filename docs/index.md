@@ -115,22 +115,6 @@ The most important part of the report is the format, which all team members must
 
 # Type of bugs
 
-Hay mucha variedad de bugs, pero en este caso nos centraremos en 3 imagenes y en si vale la pena o no arreglar dichos bugs.
-
-![bug01](https://raw.githubusercontent.com/carlosredolar/QA-WORKFLOW/master/docs/bug01.jpg)
-
-En esta imagen podemos notar que el contrincante aparece pixelado, por lo tanto influye en la experiencia del usuario, pero no afecta en absoluto al juego o la partida. Se trata de un error de tipo B que tendría poca prioridad debido a que solamente ocurriría con ese enemigo y durante 2 segundos en pantalla.
-
-![bug02](https://raw.githubusercontent.com/carlosredolar/QA-WORKFLOW/master/docs/bug02.jpg)
-
-En esta imagen vemos como el modelado 3D del personaje se ha visto alterado, por lo tanto influye en la experiencia del usuario, pero no afecta en absoluto al juego o la partida. Se trata de un error de tipo B igual que el anterior, pero este sí que tendría más prioridad ya que el usuario tendrá que lidiar con ver este error durante toda la cinemática o incluso parte del gameplay.
-
-![bug03](https://raw.githubusercontent.com/carlosredolar/QA-WORKFLOW/master/docs/bug03.jpg)
-
-En esta imagen podemos apreciar como tras completar una misión la recompensa es desorbitada, por lo tanto influye directamente en la experiencia del juego y también en la experiéncia de otros usuarios al tratarse de un juego online. Se trata de un error de tipo A con prioridad máxima, ya que también puede afectar a la economía de la empresa si afecta en los microtransacciones.
-
-There is a lot of variety of bugs, but in this case we will focus on 3 images and whether or not to fix those bugs.
-
 ![bug01](https://raw.githubusercontent.com/carlosredolar/QA-WORKFLOW/master/docs/bug01.jpg)
 
 In this image we can see that the opponent appears pixelated, therefore influences the user experience, but does not affect the game at all. It is a type B error that would have low priority because it would only occur with that enemy and for 2 seconds on the screen.
